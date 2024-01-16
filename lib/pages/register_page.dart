@@ -24,10 +24,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
   final TextEditingController _password = TextEditingController();
 
-  void initState() {
-    super.initState();
-  }
-
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _db = FirebaseFirestore.instance;
 
@@ -121,7 +117,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             TextFormField(
                               controller: _password,
                               validator: notEmptyValidator,
-                              obscureText: true,
+                              obscureText: obscured,
                               decoration: customInputDecoration(
                                 "Password",
                                 prefixIcon: Icon(Icons.lock_outline),
