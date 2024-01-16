@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "446692952250",
+    "project_id": "keuangan-study-case69",
+    "storage_bucket": "keuangan-study-case69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446692952250:android:60928401cab5373c7e1a83",
+        "android_client_info": {
+          "package_name": "com.example.capstone_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACSrqVBoXf2tKX6O0becNtmyr6nI1qd6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
